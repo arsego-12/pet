@@ -1,147 +1,174 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:'Oswald', sans-serif ;
 }
 
-li{
-    display:inline-block;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
-nav{
-    display:inline-block;
+
+header {
+    margin: 30px 70px 70px 70px;
 }
-header{
-    margin:30px 0px 144px 70px;
+
+nav {
+    display: inline-block;
 }
-a{
+
+li {
+    display: inline-block;
+}
+
+a {
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
-    margin: 0 20px 0 0 ;
-    cursor:pointer;
-    color:rgb(19, 2, 82);
-    transition:opacity 0.2s;
-    text-decoration: none
-}
-a:hover{
-opacity: 0.8;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    color: #333333;
+    text-decoration: none;
+    transition: opacity 0.3s;
 }
 
-.botao-login{
+a:hover {
+    opacity: 0.8;
+}
+
+.botao-login {
     width: 130px;
-    height:38px ;
+    height: 38px;
     border-radius: 20px;
-    background-color: rgb(197, 135, 255);
-    border:none;
+    background: #4A90E2;
+    border: none;
     font-size: 20px;
     font-weight: 600;
-    color:rgb(7, 255, 255);
-    transition:opacity 0.2s;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: opacity 0.3s;
 }
 
-.botao-login:hover{
+.botao-login:hover {
     opacity: 0.8;
-    background-color: rgb(80, 6, 6);
 }
 
-logo{
-    width: 40%;
-    vertical-align: middle;
-}
-.texto{
-    width: 40%;
-    display:inline-block;
-    vertical-align: top;
-    margin: 250px 0 0 5%;
-    text-align: left;
-}
-main{
+main {
     text-align: center;
 }
-.botao-explore{
-    width: 180px;
-    height: 44px;
-    cursor: pointer;
-    background: rgb(245, 123, 147);
-    border:none;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: 500;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-    transition: opacity 0.3s
+
+.logo {
+    width: 40%;
+    max-width: 430px;
+    vertical-align: middle;
+    margin: 0 5%;
 }
 
-.botao-explore:houver {
-opacity: 0,7;
+.texto {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5%;
+    text-align: left;
 }
 
-.titulo{
+.titulo {
     font-size: 40px;
-    font-weight: 900;;
-    color:rgb(141, 7, 7)
+    font-weight: 600;
+    color: #515151;
+    line-height: 1.2;
 }
-.sub-titulo{
-    color:rgb(177, 104, 8);
-    line-height: 60px;
-    font-size: 30px;
+
+.subtitulo {
+    font-size: 24px;
+    color: #515151;
+    line-height: 1.4;
 }
-.paragrafo{
+
+.paragrafo {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color:black;
+    color: #848484;
     text-align: justify;
     margin: 20px 0 30px 0;
     max-width: 500px;
-
 }
-footer{
+
+.botao-explore {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    background: #4A90E2;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f5f5f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+}
+
+.botao-explore:hover {
+    opacity: 0.8;
+}
+
+.img-dog {
+    display: block;
+    width: 70%;
+    max-width: 600px;
+    height: 450px;
+    object-fit: cover;
+    margin: 80px auto 0 auto;
+    border-radius: 15px;
+}
+
+footer {
     text-align: center;
-    background-color: beige;
-    padding: 50px;
+    background: #f4f4f4;
+    padding: 60px;
     font-size: 14px;
     margin-top: 100px;
 }
 
-@media (max-width: 768px){
-    header{
-    margin:30px 0px 60px 0;
-    text-align: center;
-    width: 100%;
-}
+@media (max-width: 768px) {
+    header {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
 
-a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    margin: 0 5px 0 0 ;
-    
-}
+    a {
+        font-size: 16px;
+        margin: 0 5px 0 0;
+    }
 
-.botao-login{
-    width: 90px;
-    height: 32px ;
-    border-radius: 15px;
-    
-    font-size: 16px;
-    font-weight: 600;
+    .botao-login {
+        width: 90px;
+        height: 32px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 
-}
+    .logo {
+        display: block;
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
 
-.logo{
-    width: 40%;
-    display: block;
-    margin: 0 auto 50px auto;
-}
+    .texto {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
 
-.texto{
-    width: 80%; 
-    text-align: center;
+    .titulo {
+        font-size: 30px;
+    }
 
-}
-.titulo{
-    font-size: 30px;
-}
-
+    .img-dog {
+        width: 90%;
+        max-height: 200px;
+        height: auto;
+        margin: 40px auto 0 auto;
+    }
 }
