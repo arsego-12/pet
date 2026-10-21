@@ -1,174 +1,50 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+ <html lang = "en">
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
+ <cabeçalho >
+ <meta charset = "UTF-8" >
+ <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+ <title> Pet Julio </title>​​
+ <link rel = "stylesheet" href = "style.css" >
+ < link rel = "preconnect" href = " https://fonts.googleapis.com " >
+ < link rel = "preconnect" href = " https://fonts.gstatic.com " crossorigin >
+ < link href = " https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap " rel = "stylesheet" >
+ </head>​​
 
-header {
-    margin: 30px 70px 70px 70px;
-}
+ < corpo >
+ < cabeçalho >
+ < div class =" nome " >< span class = "n1" > Animal de estimação</span> < span class = "n2" > Roxo </span> </div>
+ < nav >
+ < ul >
+ <li> <a href="index.html" link-menu"> Página Inicial </a> </li>​​​​​​​​
+ < li >< a class = "link-menu" > Sobre </ a ></ li >
+ < li >< a href = "serviços.html" class = "link-menu" > Serviços </ a ></ li >
+ < li >< a class = "link-menu" > Contato </ a ></ li >
+ </ul>​​
+ </ nav >
+ < button class = " botao - login" > Entrar </button>
+ </ cabeçalho >
+ < principal >
+ < img src = "./img/3f9e624eeae8f2679e076b3620c508e7.jpg" alt = "logo-pet" class = "logo" >
+ < div class = "texto" >
+ < h1 class = "titulo" > NÓS CUIDAMOS </ h1 >
+ < h2 class = "sub-titulo" > Do Seu Pet </ h2 >
+ < p class = "paragrafo" > Oferecemos todo o carinho e a dedicação que o seu melhor amigo merece. Cuidamos da
+ saúde e do bem-estar do seu pet
+ com profissionais talentosos e muito amor. </ p >
+ < button class =" botao - explore" onclick = " imageApi ()" > Explorar </button>
 
-nav {
-    display: inline-block;
-}
+ </main>​​
+ </ div class = "dogs-div" >
+ < img src = "" class = "img-dog" >
+ </div>​​
+ < rodapé >
+ < p > &copy; 2026 Júlio Veterinário </ p >
+ </ rodapé >
 
-li {
-    display: inline-block;
-}
 
-a {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 20px 0 0;
-    cursor: pointer;
-    color: #333333;
-    text-decoration: none;
-    transition: opacity 0.3s;
-}
 
-a:hover {
-    opacity: 0.8;
-}
+ < script src = "app.js" ></ script >
+ </body>​​
 
-.botao-login {
-    width: 130px;
-    height: 38px;
-    border-radius: 20px;
-    background: #4A90E2;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: #f5f5f5;
-    cursor: pointer;
-    transition: opacity 0.3s;
-}
-
-.botao-login:hover {
-    opacity: 0.8;
-}
-
-main {
-    text-align: center;
-}
-
-.logo {
-    width: 40%;
-    max-width: 430px;
-    vertical-align: middle;
-    margin: 0 5%;
-}
-
-.texto {
-    width: 40%;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 5%;
-    text-align: left;
-}
-
-.titulo {
-    font-size: 40px;
-    font-weight: 600;
-    color: #515151;
-    line-height: 1.2;
-}
-
-.subtitulo {
-    font-size: 24px;
-    color: #515151;
-    line-height: 1.4;
-}
-
-.paragrafo {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #848484;
-    text-align: justify;
-    margin: 20px 0 30px 0;
-    max-width: 500px;
-}
-
-.botao-explore {
-    width: 180px;
-    height: 50px;
-    cursor: pointer;
-    background: #4A90E2;
-    border: none;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #f5f5f5;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: opacity 0.3s;
-}
-
-.botao-explore:hover {
-    opacity: 0.8;
-}
-
-.img-dog {
-    display: block;
-    width: 70%;
-    max-width: 600px;
-    height: 450px;
-    object-fit: cover;
-    margin: 80px auto 0 auto;
-    border-radius: 15px;
-}
-
-footer {
-    text-align: center;
-    background: #f4f4f4;
-    padding: 60px;
-    font-size: 14px;
-    margin-top: 100px;
-}
-
-@media (max-width: 768px) {
-    header {
-        margin: 10px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    a {
-        font-size: 16px;
-        margin: 0 5px 0 0;
-    }
-
-    .botao-login {
-        width: 90px;
-        height: 32px;
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-    .logo {
-        display: block;
-        width: 80%;
-        margin: 20px auto 0 auto;
-    }
-
-    .texto {
-        width: 80%;
-        margin: 20px auto;
-        text-align: center;
-    }
-
-    .titulo {
-        font-size: 30px;
-    }
-
-    .img-dog {
-        width: 90%;
-        max-height: 200px;
-        height: auto;
-        margin: 40px auto 0 auto;
-    }
-}
+ </ html >
