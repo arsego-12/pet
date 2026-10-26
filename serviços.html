@@ -1,50 +1,132 @@
-<!DOCTYPE html >
- <html lang = "en" >
 
- <cabeçalho >
- <meta charset = "UTF-8" >
- <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
- <title> Pet Julio </title>​​
- <link rel = "stylesheet" href = "style.css" >
- <link rel = "preconnect" href = " https://fonts.googleapis.com " >
- <link rel = "preconnect" href = " https://fonts.gstatic.com " crossorigin >
- <link href = " https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap " rel = "stylesheet" >
- </head>​​
+<!DOCTYPE html>
+<html lang="pt-BR">
 
- <corpo>
- <cabeçalho>
- <div class =" nome " >< span class = "n1" > Animal de estimação</span> < span class = "n2" > Roxo </span> </div>
- <nav>
- <ul>
- <li> <a href="index.html" link-menu"> Página Inicial </a> </li>​​​​​​​​
- <li><a class = "link-menu" > Sobre </a></li>
- <li><a href = "serviços.html" class = "link-menu" > Serviços </a></li>
- <li><a class = "link-menu" > Contato </a></li>
- </ul>​​
- </nav >
- <button class = " botao - login" > Entrar </button>
- </cabeçalho >
- <principal >
- <img src = "./img/3f9e624eeae8f2679e076b3620c508e7.jpg" alt = "logo-pet" class = "logo" >
- <div class = "texto" >
- <h1 class = "titulo" > NÓS CUIDAMOS </ h1 >
- <h2 class = "sub-titulo" > Do Seu Pet </ h2 >
- <p class = "paragrafo" > Oferecemos todo o carinho e a dedicação que o seu melhor amigo merece. Cuidamos da
- saúde e do bem-estar do seu pet
- com profissionais talentosos e muito amor. </ p >
- <button class =" botao - explore" onclick = " imageApi ()" > Explorar </button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- </main>​​
- </div> div class = "dogs-div" >
- <img src = "" class = "img-dog" >
- </div>​​
- <rodapé>
- <p> &copy; 2026 Júlio Veterinário </p>
- </rodapé>
+    <title>Pet ARSEGO</title>
 
+    <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
- <script src = "app.js"></script>
- </body>​​
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
 
- </html>
+<body>
+
+    <header>
+        <div class="nome">
+            <span class="n1">Animal de Estimação</span>
+            <span class="n2">Roxo</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="link-menu">
+                        Página Inicial
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#sobre" class="link-menu">
+                        Sobre
+                    </a>
+                </li>
+
+                <li>
+                    <a href="servicos.html" class="link-menu">
+                        Serviços
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contato" class="link-menu">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="botao-login">Entrar</button>
+    </header>
+
+    <main>
+
+        <ul class="servicos">
+
+            <li>
+                <a
+                    target="_blank"
+                    href="compra.html"
+                    class="lista-servicos">
+
+                    <h2 class="h2-servicos">Banho</h2>
+
+                    <img
+                        src="img/banho.png"
+                        alt="Serviço de banho para pets"
+                        class="img-card">
+
+                    <p class="preco">R$ 50,00</p>
+                </a>
+            </li>
+
+            <li>
+                <a
+                    target="_blank"
+                    href="compra.html"
+                    class="lista-servicos">
+
+                    <h2 class="h2-servicos">Ração</h2>
+
+                    <img
+                        src="img/racao.png"
+                        alt="Ração para animais de estimação"
+                        class="img-card">
+
+                    <p class="preco">R$ 70,00</p>
+                </a>
+            </li>
+
+            <li>
+                <a
+                    target="_blank"
+                    href="compra.html"
+                    class="lista-servicos">
+
+                    <h2 class="h2-servicos">Vacina</h2>
+
+                    <img
+                        src="img/vacina.png"
+                        alt="Vacinação de animais de estimação"
+                        class="img-card">
+
+                    <p class="preco">R$ 35,50</p>
+                </a>
+            </li>
+
+        </ul>
+
+        <button
+            onclick="WhatsApp()"
+            class="agenda">
+            Agendar Pet
+        </button>
+
+    </main>
+
+    <footer id="contato">
+        <p>&copy; 2026 ARSEGO Veterinário</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

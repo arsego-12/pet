@@ -1,5 +1,6 @@
 console.log("Deu certo!")
 
+// async --> assincrono
 async function imagemApi(){
     // espera chegar a resposta --> await
     let respostaApi = await fetch('https://dog.ceo/api/breeds/image/random')
@@ -13,9 +14,9 @@ imagemApi()
 
 function Whatsapp(){
 
-const texto ="Olá! Vim pelo site da NomeAPP e gostaria de agendar um horário para o meu pet."
+const texto ="Olá! Vim pelo site do PetNeto e gostaria de agendar um horário para o meu pet."
 const textoFormatado =encodeURIComponent(texto)
-const url =  "https://wa.me/5544999204861?text=I" + textoFormatado;
+const url =  "https://wa.me/5544999522521?text=I" + textoFormatado;
 open(url,'_blank');
 console.log(url);
 }
